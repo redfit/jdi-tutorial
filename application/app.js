@@ -20,6 +20,8 @@ Ext.Loader.setPath({
 });
 //</debug>
 
+Ext.Loader.setConfig({ disableCaching: false });
+
 Ext.application({
     name: 'App',
 
